@@ -3,9 +3,7 @@ import csv
 import numpy as np
 from scipy.stats import multivariate_normal
 import math
-#Ye Li
-#Machine Learning: Data to Model
-#Feb 2016 at JHU
+
 Mat=np.loadtxt(open('stocks.csv','rb'),delimiter=',',skiprows=1)  # Mat[:,0:5] is ms, A, B, C, D, Y
 X=Mat[:,1:5]
 Y=Mat[:,5:6]
